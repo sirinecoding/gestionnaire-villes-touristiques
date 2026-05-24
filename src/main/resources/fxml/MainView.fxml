@@ -12,7 +12,6 @@
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="igfinal.controller.MainController">
 
-
     <left>
         <ListView fx:id="villesListView"/>
     </left>

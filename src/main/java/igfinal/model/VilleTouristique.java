@@ -35,7 +35,6 @@ public class VilleTouristique {
         return visitee;
     }
 
-
     @Override
     public String toString() {
         return nom + " - " + pays;
