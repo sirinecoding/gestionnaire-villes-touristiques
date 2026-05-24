@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns="http://javafx.com/javafx/11ok"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="igfinal.controller.MainController">
+
+
+    <left>
+        <ListView fx:id="villesListView"/>
+    </left>
+
+    <center>
+        <VBox spacing="10">
+
+            <Label text="Nom :" />
+            <Label fx:id="nomLabel"/>
+
+            <Label text="Pays :" />
+            <Label fx:id="paysLabel"/>
+
+            <Label text="Description :" />
+            <Label fx:id="descriptionLabel"/>
+
+            <Label text="Visitée :" />
+            <Label fx:id="visiteeLabel"/>
+
+
+            <Label text="Ajouter une ville" />
+
+            <TextField fx:id="nomTextField" promptText="Nom" />
+
+            <TextField fx:id="paysTextField" promptText="Pays" />
+
+            <TextField fx:id="descriptionTextField" promptText="Description" />
+
+            <CheckBox fx:id="visiteeCheckBox" text="Ville visitée" />
+
+            <Button text="Ajouter" />
+
+        </VBox>
+    </center>
+
+</BorderPane>
