@@ -14,7 +14,7 @@ public class Main extends Application {
         FXMLLoader loader =
                 new FXMLLoader(getClass().getResource("/fxml/MainView.fxml"));
 
-        Scene scene = new Scene(loader.load());
+        Scene scene = new Scene(loader.load(), 900, 600);
 
         stage.setTitle("Gestionnaire de villes touristiques");
 
